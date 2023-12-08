@@ -1,0 +1,17 @@
+.container-coba {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  display: flex;
+}
+
+.container-coba .title {
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: red;
+  display: flex;
+}/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,460 @@
+// personal info
+const personalInfo = [
+    {
+        aboutInfo : 'Full Name',
+        info : 'Muhammad Ismail',
+    },
+    {
+        aboutInfo : 'Age',
+        info : '19 Years',
+    },
+    {
+        aboutInfo : 'Birth',
+        info : 'September, 2004',
+    },
+    {
+        aboutInfo : 'graduate of',
+        info : 'Computer and Network Engineering',
+    },
+    {
+        aboutInfo : 'Country',
+        info : 'Makassar, Indonesia',
+    },
+    {
+        aboutInfo : 'Address',
+        info : 'Biringkanaya BTP NHP Blok D3',
+    },
+]
+
+
+//  skills
+const generalSkill = {
+    title : 'generalSkill', 
+    skills : [
+    {
+        nameSkill:'HTML',
+        icon:'icons/html-icon.svg',
+        widthSkillName:'50px',
+        widthSkillNamePhone:'90px',
+        widthActive:'100px',
+        widthActivePhone:'90px',
+        widthActiveSmallPhone:'80px'
+    },
+    {
+        nameSkill:'CSS',
+        icon:'icons/css-icon.svg',
+        widthSkillName:'50px',
+        widthSkillNamePhone:'90px',
+        widthActive:'100px',
+        widthActivePhone:'80px',
+        widthActiveSmallPhone:'70px'
+    },
+    {
+        nameSkill:'JavaScript',
+        icon:'icons/javascript-icon.svg',
+        widthSkillName:'70px',
+        widthSkillNamePhone:'90px',
+        widthActive:'130px',
+        widthActivePhone:'100px',
+        widthActiveSmallPhone:'90px'
+    },
+    {
+        nameSkill:'PHP',
+        icon:'icons/php-icon.svg',
+        widthSkillName:'70px',
+        widthSkillNamePhone:'90px',
+        widthActive:'100px',
+        widthActivePhone:'90px',
+        widthActiveSmallPhone:'75px'
+    },
+    ]
+}
+  
+
+const cssTech = { 
+    title : 'CSSTech', 
+    skills : [
+        {
+            nameSkill:'BootStrap',
+            icon:'icons/bootstrap-icon.svg',
+            widthSkillName:'60px',
+            widthSkillNamePhone:'90px',
+            widthActive:'140px',
+            widthActivePhone:'100px',
+            widthActiveSmallPhone:'90px'
+        },
+        {
+            nameSkill:'Tailwind CSS',
+            icon:'icons/tailwindcss-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'50px',
+            widthActive:'120px',
+            widthActivePhone:'100px',
+            widthActiveSmallPhone:'100px'
+        },
+        {
+            nameSkill:'SASS',
+            icon:'icons/sass-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'100px',
+            widthActivePhone:'84px',
+            widthActiveSmallPhone:'75px'
+        }
+    ]
+}  
+
+const toolsSkill = { 
+    title : 'Tools', 
+    skills : [
+        {
+            nameSkill:'Figma',
+            icon:'icons/figma-icon.svg',
+            widthSkillName:'60px',
+            widthSkillNamePhone:'90px',
+            widthActive:'100px',
+            widthActivePhone:'85px',
+            widthActiveSmallPhone:'75px'
+        },
+        {
+            nameSkill:'ExpressJS',
+            icon:'icons/expressJS-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'60px',
+            widthActive:'130px',
+            widthActivePhone:'70px',
+            widthActiveSmallPhone:'90px'
+        },
+        {
+            nameSkill:'Git',
+            icon:'icons/git-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'90px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'70px'
+        },
+        {
+            nameSkill:'GitHub',
+            icon:'icons/github-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'75px'
+        },
+    ]
+}
+
+const JavascriptTech = { 
+    title : 'JavaScript Tech', 
+    skills : [
+        {
+            nameSkill:'NodeJS',
+            icon:'icons/nodejs-icon.svg',
+            widthSkillName:'60px',
+            widthSkillNamePhone:'90px',
+            widthActive:'115px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'80px'
+        },
+        {
+            nameSkill:'ReactJS',
+            icon:'icons/react-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'120px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'80px'
+        },
+        {
+            nameSkill:'NextJS',
+            icon:'icons/nextJS-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'80px'
+        }
+    ]
+}
+
+const DBTech_Tools = { 
+    title : 'Database Tech & Tools', 
+    skills : [
+        {
+            nameSkill:'Postman',
+            icon:'icons/postman-icon.svg',
+            widthSkillName:'60px',
+            widthSkillNamePhone:'90px',
+            widthActive:'120px',
+            widthActivePhone:'100px',
+            widthActiveSmallPhone:'100px'
+        },
+        {
+            nameSkill:'MongoDB',
+            icon:'icons/mongodb-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'125px',
+            widthActivePhone:'100px',
+            widthActiveSmallPhone:'90px'
+        },
+        {
+            nameSkill:'MySQL',
+            icon:'icons/mysql-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'85px'
+        }
+    ]
+}
+
+const library = { 
+    title : 'library', 
+    skills : [
+        {
+            nameSkill:'Framer Motion',
+            icon:'icons/framerMotion-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'40px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'87px'
+        },
+        {
+            nameSkill:'Scroll Reveal',
+            icon:'icons/scrollReveal-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'40px',
+            widthActive:'125px',
+            widthActivePhone:'100px',
+            widthActiveSmallPhone:'85px'
+        },
+        {
+            nameSkill:'AnimeJS',
+            icon:'icons/anime-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'120px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'85px'
+        },
+        {
+            nameSkill:'Jquery',
+            icon:'icons/jquery-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'85px'
+        },
+    ]
+}
+
+
+// projects
+const projects = [
+    {
+        id:1,
+        image:'./images/project1.png',
+    },
+    {
+        id:2,
+        image:'./images/project2.png',
+    },
+    {
+        id:3,
+        image:'./images/project3.png',
+    },
+    {
+        id:4,
+        image:'./images/project4.webp',
+    },
+    {
+        id:5,
+        image:'./images/project5.png',
+    },
+    {
+        id:6,
+        image:'./images/project6.png',
+    },
+    {
+        id:7,
+        image:'./images/project7.webp',
+    },
+
+];
+
+
+const dataProjects = [
+    {
+        id:1,
+        nameProject:'sony web',
+        aboutProject:"I took inspiration from Sony's headphones, with a black and white theme this website looks modern plus the use of minimalist fonts and text makes this website elegant. I use bootstrap for layout and some styling, using a little JavaScript makes this website operate well.",
+        startProject: '16/May/2023',
+        finishedProject: '16/June/2023',
+        imageProject: './images/project1.png',
+        imageSeledtedProject: [
+            './images/project1.png',
+            './images/project1-image2.png',
+            './images/project1-image3.png',
+            './images/project1-image4.png'
+        ],
+        techUses:[
+            './icons/html-icon.svg',
+            './icons/javascript-icon.svg',
+            './icons/bootstrap-icon.svg',
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',
+        ],
+        link:'https://muhismailmks.github.io/sonyheadphone/', 
+    },
+    {
+        id:2,
+        nameProject:'garmin onwatch web',
+        aboutProject:'This onWatch website contains watches from the Garmin brand, it uses the help of the TailwindCSS framework, the design was designed and taken from Figma, and converted to HTML with a responsive design on all devices so that anyone can view this website.',
+        startProject: '26/March/2023',
+        finishedProject: '23/April/2023',
+        imageProject: './images/project2.png',
+        imageSeledtedProject: [
+            './images/project2.png',
+            './images/project2-image1.png', 
+            './images/project2-image2.png', 
+            './images/project2-image3.png', 
+            './images/project2-image4.png', 
+        ],
+        techUses:[
+            './icons/html-icon.svg',
+            './icons/javascript-icon.svg',
+            './icons/tailwindcss-icon.svg',
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',
+        ], 
+        link:'https://muhismailmks.github.io/onWatch/', 
+    }, 
+    {
+        id:3,
+        nameProject:'BMW cars',
+        aboutProject:'This website was created because I was studying ReactJS, because I like BMW cars, I was inspired to create this website. I have learned a lot about ReactJS while this website was being created, such as hooks, routers, components and many more, I also use animation from the Framer Motion library.',
+        startProject: '20/June/2023',
+        finishedProject: '08/November/2023',
+        imageProject: './images/project3.png',
+        imageSeledtedProject: [
+            './images/project3.png', 
+            './images/project3-image1.webp', 
+            './images/project3-image2.webp', 
+            './images/project3-image3.webp',  
+        ],
+        techUses:[
+            './icons/react-icon.svg',
+            './icons/javascript-icon.svg', 
+            './icons/nodejs-icon.svg', 
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',
+            './icons/framerMotion-icon.svg',
+        ], 
+        link:'https://muhismailmks.github.io/bmwcars/', 
+    }, 
+    {
+        id:4,
+        nameProject:'Eset Up',
+        aboutProject:`a landing page was built in just 1 day, because I didn't want to waste time on design at that time I took a Figma template from someone else, and I converted the design to HTML, CSS and Javascript, I started from 7 am until the next day at 8 am, yep, this landing page only takes a little time and is responsive on all devices.`,
+        startProject: '15/June/2023',
+        finishedProject: '16/June/2023',
+        imageProject: './images/project4.webp',
+        imageSeledtedProject: [
+            './images/project4.webp',  
+            './images/project4-image2.webp',  
+            './images/project4-image3.webp',  
+            './images/project4-image4.webp',  
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/javascript-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg', 
+        ], 
+        link:'https://muhismailmks.github.io/eset-up/', 
+    },
+    {
+        id:5,
+        nameProject:'zeink architect',
+        aboutProject:"website with a building architecture theme, last year I was testing my skills as a front end web developer, using animations from the Scroll Reveal library to make this website look good with these animations, after 1 year of studying this front end, I don't want to be tied to it. tutorials on social media, and this is what I was capable of last year.",
+        noteProject:`This website has undergone an update to be responsive on all devices, because at that time I was still not really proficient in doing CSS media queries.<b> Updated on 22-November-2023</b>`,
+        startProject:"18/June/2022",
+        finishedProject: '07/August/2022',
+        imageProject: './images/project5.png',
+        imageSeledtedProject: [
+            './images/project5.png', 
+            './images/project5-image2.webp',  
+            './images/project5-image4.webp', 
+            './images/project5-image5.webp', 
+        ],
+        techUses:[
+            './icons/react-icon.svg',
+            './icons/javascript-icon.svg', 
+            './icons/nodejs-icon.svg', 
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',
+            './icons/scrollReveal-icon.svg',
+        ], 
+        link:'https://muhismailmks.github.io/zeink-architect/', 
+    },
+    {
+        id:6,
+        nameProject:'Gadget Zone',
+        aboutProject:`MERN FullStack project, an e-commerce gadget themed website. I create a website that lasts like an online shop, I use the latest website technology such as nextJS, MongoDB and Tailwind CSS, I also create several features found in online stores in general such as shopping baskets, item discounts, filter item categories and many more, while learning this technology in more depth, maybe this website will be completed in quite a long time.`, 
+        startProject: '11/October/2023',
+        finishedProject: '--/--/----',
+        imageProject: './images/project6.png',
+        imageSeledtedProject: [
+            './images/project6.png',  
+        ],
+        techUses:[ 
+            './icons/nextJS-icon.svg',  
+            './icons/tailwindcss-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg', 
+            './icons/mongodb-icon.svg', 
+            './icons/postman-icon.svg', 
+            './icons/expressJS-icon.svg',  
+        ], 
+        link: false, 
+    },  
+    {
+        id:7,
+        nameProject:'Tasty Cuisine',
+        aboutProject:`This website is an old project of mine which previously only looked for recipes using the Rest API, now I have changed it to a website full of articles about food, because I think something is missing so I redesigned this website, it is more user friendly and can be used on all devices.`, 
+        noteProject:`This is a continuation project, previously I only took the API and there were no other articles on this project, currently I am planning a new design first.`,
+        startProject: '11/October/2023',
+        startProject: '27/November/2023',
+        finishedProject: '--/--/----',
+        imageProject: './images/project7.webp',
+        imageSeledtedProject: [
+            './images/project7.webp',  
+            './images/project7-image2.webp',  
+            './images/project7-image3.webp',  
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/sass-icon.svg',  
+            './icons/jquery-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',  
+        ], 
+        link: false, 
+    },  
+]
+
+

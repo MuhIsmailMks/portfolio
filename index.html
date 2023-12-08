@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo-web.png"> 
+    <meta name="description" content="this is my portfolio by Ismail ">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"
+        integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./css/input.css">
+    <title>Muhammad Ismail</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./icons/ISMAIL.svg" alt="">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="github-link" data-idProject="1">
+                <a href="https://github.com/MuhIsmailMks" target="_blank" data-idProject="1">
+                    <img src="icons/githubIcon.svg" alt="">
+                </a>
+            </div>
+        </nav>
+
+        <div class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="hero-web" id="home">
+
+       
+
+        <!-- about portfolio -->
+        <div class="hero-web_content">
+            <p class="intro-text">Hello, my name is</p>
+            <div class="first-name">
+                <svg class="svg svg-container">
+                    <!-- I -->
+                    <path class="path" d="M1 73V1H14V73H1Z" stroke="white" stroke-width="2" />
+                    <!-- S -->
+                    <path class="path"
+                        d="M1 8.23445L8.5 1H48.7723L53 4.5V12L48.7723 16H20.5L15.5 19V24L20.5 28H43.5L53 38.5V66L43.5 73H6L1 70V60L6 57H32L38 53V46.5L32 43H8.5L1 36.5V8.23445Z"
+                        stroke="white" stroke-width="2" />
+                    <!-- M -->
+                    <path class="path" d="M1 1V73H12.5V22L35.5 63H45L67 22V73H79.5V1H65.5L40 49.5L13.5 1H1Z"
+                        stroke="white" stroke-width="2" />
+                    <!-- A -->
+                    <path class="path"
+                        d="M30.5 1C21.3333 24.6667 2.8 72.3 2 73.5H15.5L22 56H52L58.5 73.5H72.5L43.2314 1H30.5Z"
+                        stroke="white" stroke-width="2" />
+                    <path class="path" d="M25 43L36.5 11L48 43H25Z" stroke="white" stroke-width="2" />
+                    <!-- I -->
+                    <path class="path" d="M1 73V1H14V73H1Z" stroke="white" stroke-width="2" />
+                    <!-- L -->
+                    <path class="path" d="M1.5 1V73H44V62.5H15V1H1.5Z" stroke="white" stroke-width="2" />
+                </svg>
+            </div>
+
+            <p class="about-role">as a web developer</p>
+            <p class="portfolio-at-a-glance">on this page I will show you some of my skills, projects and abilities</p>
+
+            <button class="view-portfolio">
+                View Project
+                <a href="#projects"></a>
+            </button>
+        </div>
+
+    </div>
+
+
+    <div class="about-me" id="about-me">
+        <span class="light _1"></span>
+        <span class="light _2"></span>
+
+        <div class="section-title">
+            <h1>About Me</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="info-about-me">
+
+            <div class="personal-info">
+                <div class="title-group">
+                    <h3>Personal Info</h3>
+                </div>
+                <div class="info-person">
+                </div>
+            </div>
+
+            <section class="short-summary">
+                <div class="title-group">
+                    <h3>Short Summary</h3>
+                </div>
+                <article>
+                    <p>
+                        I am a 19 year old teenager. I am interested in web development in 2021, I first learned about
+                        web developers and I am interested in front end developers, I have high enthusiasm to achieve my
+                        dreams, I learn and practice every day to create extraordinary work, all the processes involved
+                        I went through this independently, I always prioritize my work professionally.
+                    </p>
+                </article>
+            </section>
+
+        </div>
+
+        <div class="my-skills">
+
+            <div class="title">
+                <h3>My Skills</h3>
+            </div>
+
+            <div class="skill-container">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="projects" id="projects">
+
+        <div class="section-title">
+            <h1>My Projects</h1>
+            <div class="line"></div>
+        </div>
+
+        <article>
+            <p>My projects includes a wide range of projects, from corporate websites to online stores, demonstrating my
+                ability to deliver tailored solutions for a variety of client needs.</p>
+        </article>
+
+        <div class="projects-container">
+            <div class="projects-slide swiper mySwiper">
+
+                <div class="swiper-wrapper slide-container">
+                    <!-- render projects -->
+                </div>
+
+                <!-- button slide -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="project-details ">
+
+        <div class="project-details-container">
+
+            <div class="image-project">
+
+                <!-- project time -->
+                <div class="finished-project">
+                    <p>Created On</p>
+                    <div class="time-container"> 
+                         <p class="start"> </p> 
+                         <div class="line"></div>
+                         <p class="finished"> </p> 
+                    </div>
+                </div>
+
+                <!-- main image -->
+                <div class="project-image-container">
+                    <div class="image">
+                        <img src="images/project2.png" alt="">
+                    </div>
+                </div>
+
+                <!-- image select --> 
+                <div class="selected-image-container"> 
+                    <swiper-container    free-mode="true" slides-per-view="auto"
+                    class="mySwiper selected-image"> 
+
+                        
+                    </swiper-container>  
+                </div>
+
+                <!-- link to project -->
+                <div class="visit-project">
+                    <!-- render button in javascript -->
+                </div>
+
+
+            </div>
+
+            <div class="line-container">
+                <div class="line"></div>
+            </div>
+
+
+            <div class="about-project">
+
+                <section class="detail-project">
+                    <div>
+                        <h2>About Project</h2>
+                        <span></span>
+                    </div>
+                    <p>This onWatch website contains watches from the Garmin brand, it uses the help of the TailwindCSS
+                        framework, the design was designed and taken from Figma, and converted to HTML with a responsive
+                        design on all devices so that anyone can view this website.</p>
+                </section>
+
+                <!-- https://chat.openai.com/c/20d05ba1-1a20-42af-8ac2-e1a9717b9132 -->
+                <section class="note-project">  
+                </section>
+
+                <div class="tech-tools-used">
+
+                    <div class="tech-used">
+                        <div>
+                            <h3>Tech Used</h3>
+                            <span></span>
+                        </div>
+                        <div class="project-tech-container">
+                            <img src="icons/html-icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="tools-used">
+                        <div>
+                            <h3>Tools Used</h3>
+                            <span></span>
+                        </div>
+                        <div class="project-tools-container"> 
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="close-details-project">
+                <img src="icons/close_button_project.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="services" id="services">
+
+        <div class="section-title">
+            <h1>My Services</h1>
+            <div class="line"></div>
+        </div>
+
+        <article>
+            <p>I provide several services related to web development, below there are several services, I only show a few services, there are many more as long as they are still related to this field, if you are interested in these services you can contact me</p>
+        </article>
+
+        <div class="service-container">
+
+            <div class="service">
+                <div class="intro-service">
+                    <div class="line"></div>
+                    <h3>Convert <span>Figma</span> to <span>HTML</span></h3>
+                </div>
+                <div class="about-service">
+                    <p>I will convert your Figma design to Html, and make it responsive on all devices, even those that don't have a special mobile frame. ensure your request is exactly with your design.</p>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="intro-service">
+                    <div class="line"></div>
+                    <h3>Fix/Update <span>HTML</span> & <span>CSS</span></h3>
+                </div>
+                <div class="about-service">
+                    <p>if you have problems with your website, various problems that often appear on websites such as responsiveness on devices, irregular layout or want to update a website redesign or add new content.</p>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="intro-service">
+                    <div class="line"></div>
+                    <h3>Service in <span>JavaScript</span></h3>
+                </div>
+                <div class="about-service">
+                    <p>The JavaScript programming language is important for websites because it makes them more dynamic, some services for JavaScript such as API integration, JavaScript frameworks such as ReactJS and website updates.</p>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="intro-service">
+                    <div class="line"></div>
+                    <h3>Add Animation with <span>Library</span></h3>
+                </div>
+                <div class="about-service">
+                    <p>Animation on today's modern websites often amazes users, especially if the animation transitions smoothly, the website will look elegant. With sophisticated animation techniques, we change concepts into attractive visuals.</p>
+                </div>
+            </div>
+            
+        </div>
+ 
+    </div>
+
+    <div class="contact" id="contact">
+
+        <div class="section-title">
+            <h1>My Contact</h1>
+            <div class="line"></div>
+        </div>
+
+        <article>
+            <p>you can contact me. Is there anything you want to ask? Feel free to contact us directly for further information.</p>
+        </article>
+
+        <div class="hiring">
+
+            <div class="hire">
+                <h3>hire front end developer</h3>
+                <p class="text">Are you looking for a website developer? I have expertise in website development and have worked on real projects, send an inquiry or just get in touch</p>
+            </div>
+
+            <div class="benefits">
+                <h3>independent and responsible</h3>
+                <p class="text">I always work independently but that doesn't mean I can't work as a team, I always maintain communication with the team for the same goal. Apart from that, I am also responsible for my work, I will bear all these problems.</p>
+            </div>
+        </div>
+
+        <div class="my-contact-container">
+            <p>Do you have questions or comments about the services I offer. Plus, you can always contact me</p>
+
+            <div class="about-my-contact">
+
+                <div class="my-contact">
+
+                    <div class="phone">
+
+                        <div class="icon">
+                            <img src="./icons/telegram-icon.svg" alt="">
+                            <p>&</p>
+                            <img src="./icons/whatsapp-icon.svg" alt="">
+                        </div>
+
+                        <div class="num-phone">
+                            <span>: </span>
+                            <p>+62 895-3192-0204</p>
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <div class="icon">
+                            <img src="./icons/email-icon.svg" alt="">
+                        </div>
+                        <span>:</span>
+                        <p>muhismailmks@gmail.com</p>
+                    </div>
+
+                </div>
+
+                <div class="resume-container">
+                    <button class="resume">
+                        <h5>
+                            Resume
+                        </h5>
+                        <img src="./icons/download-icon.svg"  alt="">
+                        <a href="./resume.pdf" download="MuhIsmailResume.pdf"></a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        
+        <div class="triangle-background">
+            <div class="triangle _1"></div>
+            <div class="triangle _2"></div>
+        </div>
+
+
+    </div>
+ 
+
+    <footer>
+
+        <div class="intro">
+            <p>Thank you for visiting my website. I look forward to collaborating with you!</p>
+        </div>
+        
+        <div class="footer-content">
+
+            <div class="footer-contact">
+                <div class="phone"><p>+62 895-3192-0204</p></div>
+                <div class="email"><p>muhismailmks@gmail.com</p></div>
+            </div>
+            <div class="footer-logo">
+                <img src="./icons/ISMAIL.svg" alt="">
+            </div>
+            <div class="social-media">
+              
+                <a href="https://www.linkedin.com/in/muh-ismail-mks/" target="_blank">
+                    <img src="/icons/linkedin-icon.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="/icons/facebook-icon.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="/icons/instargram-icon.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="/icons/twitter-icon.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="by">
+            <p> ©2023 Muhammad Ismail. portfolio |  all right reserved </p>
+        </div>
+
+    </footer>
+ 
+
+    <!-- library  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- script -->
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
