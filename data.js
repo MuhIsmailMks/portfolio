@@ -434,7 +434,7 @@ const dataProjects = [
     {
         id:7,
         nameProject:'Tasty Cuisine',
-        aboutProject:`This website is an old project of mine which previously only looked for recipes using the Rest API, now I have changed it to a website full of articles about food, because I think something is missing so I redesigned this website, it is more user friendly and can be used on all devices.`, 
+        aboutProject:`created a website using the Rest API, now I have changed it to a website full of articles about food, because in my opinion there was something lacking in the previous design, so I redesigned this website to make it more user friendly. and can be used on all devices.`, 
         noteProject:`This is a continuation project, previously I only took the API and there were no other articles on this project, currently I am planning a new design first.`,
         startProject: '11/October/2023',
         startProject: '27/November/2023',
