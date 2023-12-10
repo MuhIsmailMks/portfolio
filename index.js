@@ -39,7 +39,7 @@ links.forEach(link => {
 
 //  svg name animation
 const svgName = anime.timeline({
-  autoplay: true, // Menonaktifkan pemutaran otomatis
+  autoplay: true,  
 })
 
 svgName.add({
