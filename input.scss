@@ -984,6 +984,16 @@ header nav.active {
 .projects-container .swiper-button-prev:after{ 
     display: none;
 }
+
+
+.projects-container .swiper-button-prev{  
+    background-image: url(/icons/prev-btn.svg);
+ 
+}
+
+.projects-container .swiper-button-next{  
+    background-image: url(/icons/next-btn.svg);
+}
  
 .projects-container .swiper-button-next, 
 .projects-container .swiper-button-prev{ 
@@ -991,10 +1001,11 @@ header nav.active {
     background-size: contain;
     background-position: center;
  
-    height: 49.4px; 
+    height: 49.4px;  
+ 
 
     @media screen and (max-width:1000px) {
-        height: 30px;
+        height: 35px;
     }
 
     @media screen and (max-width:600px) {
@@ -1002,13 +1013,6 @@ header nav.active {
     }
 }
 
-.projects-container .swiper-button-prev{  
-    background-image: url(/icons/prev-btn.svg);
-}
-
-.projects-container .swiper-button-next{  
-    background-image: url(/icons/next-btn.svg);
-}
 
 
 
@@ -3010,15 +3014,3 @@ footer{
 }
 
 
-
-
-// 
-.svg-attributes-demo{
-    position: absolute;
-    left: 12rem;
-    top: 20%;
-
-    path{ 
-    }
-
-}

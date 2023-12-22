@@ -826,6 +826,14 @@ header nav.active {
   display: none;
 }
 
+.projects-container .swiper-button-prev {
+  background-image: url(/icons/prev-btn.svg);
+}
+
+.projects-container .swiper-button-next {
+  background-image: url(/icons/next-btn.svg);
+}
+
 .projects-container .swiper-button-next,
 .projects-container .swiper-button-prev {
   background-repeat: no-repeat;
@@ -836,7 +844,7 @@ header nav.active {
 @media screen and (max-width: 1000px) {
   .projects-container .swiper-button-next,
   .projects-container .swiper-button-prev {
-    height: 30px;
+    height: 35px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -844,14 +852,6 @@ header nav.active {
   .projects-container .swiper-button-prev {
     height: 25px;
   }
-}
-
-.projects-container .swiper-button-prev {
-  background-image: url(/icons/prev-btn.svg);
-}
-
-.projects-container .swiper-button-next {
-  background-image: url(/icons/next-btn.svg);
 }
 
 .project-details {
@@ -2837,9 +2837,4 @@ footer .by p {
   header nav ul li {
     height: 11vh;
   }
-}
-.svg-attributes-demo {
-  position: absolute;
-  left: 12rem;
-  top: 20%;
 }/*# sourceMappingURL=input.css.map */
