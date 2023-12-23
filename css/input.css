@@ -854,6 +854,18 @@ header nav.active {
   }
 }
 
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet, .swiper-pagination-custom .swiper-pagination-bullet, .swiper-pagination-fraction .swiper-pagination-bullet {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet-active, .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet-active, .swiper-pagination-custom .swiper-pagination-bullet-active, .swiper-pagination-fraction .swiper-pagination-bullet-active {
+  background-color: #A6F6FF !important;
+}
+
 .project-details {
   opacity: 0;
   z-index: -9;

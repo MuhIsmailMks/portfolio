@@ -124,38 +124,6 @@ skillTechContainer.innerHTML += librarySkill;
 
 
 
-
-// animtaion scroll
-// const options = {
-//     root: null, // Akar viewport (null artinya viewport penjelajah)
-//     rootMargin: '0px',
-//     threshold: 0.5 // Pemicu animasi ketika setengah elemen terlihat
-// };
-
-// const observer = new IntersectionObserver((entries, observer) => {
-//     entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//             // Jalankan animasi Anime.js saat elemen terlihat
-//             animation.play();
-//         }
-//     });
-// }, options);
-
-// // Sisipkan elemen yang akan diamati oleh observer
-// const elementToAnimate = document.querySelector('.animated-element');
-// observer.observe(elementToAnimate);
-
-
-
-
-
-// project
-// slide
-
-
-// projects
-
-
 const projectsSlideContainer = document.querySelector('.slide-container');
 ;
 
@@ -165,6 +133,10 @@ window.addEventListener("DOMContentLoaded",() => {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        }, 
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true, // Membuat pagination dapat diklik
         },
         loop:false,
       });  
