@@ -987,11 +987,13 @@ header nav.active {
 
 
 .projects-container .swiper-button-prev{  
+    background-image: url('./icons/prev-btn.svg');
     background-image: url(/icons/prev-btn.svg);
  
 }
 
 .projects-container .swiper-button-next{  
+    background-image: url('./icons/next-btn.svg');
     background-image: url(/icons/next-btn.svg);
 }
  

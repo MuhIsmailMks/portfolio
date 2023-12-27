@@ -143,6 +143,15 @@ const toolsSkill = {
             widthActivePhone:'90px',
             widthActiveSmallPhone:'75px'
         },
+        {
+            nameSkill:'Redux',
+            icon:'icons/redux-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'75px'
+        },
     ]
 }
 
@@ -175,7 +184,16 @@ const JavascriptTech = {
             widthActive:'110px',
             widthActivePhone:'90px',
             widthActiveSmallPhone:'80px'
-        }
+        },
+        {
+            nameSkill:'TypeScript',
+            icon:'icons/typescript-icon.svg',
+            widthSkillName:'80px',
+            widthSkillNamePhone:'90px',
+            widthActive:'130px',
+            widthActivePhone:'110px',
+            widthActiveSmallPhone:'100px'
+        },
     ]
 }
 
@@ -435,15 +453,17 @@ const dataProjects = [
         id:7,
         nameProject:'Tasty Cuisine',
         aboutProject:`created a website using the Rest API, now I have changed it to a website full of articles about food, because in my opinion there was something lacking in the previous design, so I redesigned this website to make it more user friendly. and can be used on all devices.`, 
-        noteProject:`This is a continuation project, previously I only took the API and there were no other articles on this project, currently I am planning a new design first.`,
-        startProject: '11/October/2023',
+        noteProject:`This is a continuation project, previously I only took the API and there were no other articles about this project, now I have created a complete website, rather than just displaying the API.`,
         startProject: '27/November/2023',
-        finishedProject: '--/--/----',
+        finishedProject: '26/December/2023',
         imageProject: './images/project7.webp',
         imageSeledtedProject: [
-            './images/project7.webp',  
+            './images/project7.webp',     
             './images/project7-image2.webp',  
             './images/project7-image3.webp',  
+            './images/project7-image4.webp',  
+            './images/project7-image5.webp',  
+            './images/project7-image6.webp',  
         ],
         techUses:[ 
             './icons/html-icon.svg',  
@@ -453,7 +473,7 @@ const dataProjects = [
         toolsUses:[
             './icons/figma-icon.svg',  
         ], 
-        link: false, 
+        link: 'https://muhismailmks.github.io/tastyCuisine/', 
     },  
 ]
 
