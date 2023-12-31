@@ -437,8 +437,7 @@ const dataProjects = [
         imageProject: './images/project6.png',
         imageSeledtedProject: [
             './images/project6.png',  
-            './images/project6-image2.webp',    
-            './images/project6_video.mp4',    
+            './images/project6-image2.webp',  
             './images/project6-image3.webp',    
             './images/project6-image4.webp',    
         ],
