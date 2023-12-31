@@ -821,39 +821,23 @@ header nav.active {
   width: 100%;
 }
 
-.projects-container .swiper-button-next:after,
-.projects-container .swiper-button-prev:after {
-  content: "";
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #A6F6FF;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.projects-container .swiper-button-prev:after {
-  background-image: url(/icons/prev-btn.svg);
-}
-
-.projects-container .swiper-button-next:after {
-  background-image: url(/icons/next-btn.svg);
-}
-
-.projects-container .swiper-button-next,
-.projects-container .swiper-button-prev {
-  height: 49.4px;
+  height: auto;
+  font-size: 3.5rem;
 }
 @media screen and (max-width: 1000px) {
-  .projects-container .swiper-button-next,
-  .projects-container .swiper-button-prev {
-    height: 35px;
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
-  .projects-container .swiper-button-next,
-  .projects-container .swiper-button-prev {
-    height: 25px;
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 1.6rem;
   }
 }
 
@@ -1017,6 +1001,7 @@ header nav.active {
   -webkit-backdrop-filter: blur(41px);
           backdrop-filter: blur(41px);
 }
+.project-details-container .image-project .project-image-container .image video,
 .project-details-container .image-project .project-image-container .image img {
   width: 95%;
   height: auto;
