@@ -143,15 +143,6 @@ const toolsSkill = {
             widthActivePhone:'90px',
             widthActiveSmallPhone:'75px'
         },
-        {
-            nameSkill:'Redux',
-            icon:'icons/redux-icon.svg',
-            widthSkillName:'50px',
-            widthSkillNamePhone:'90px',
-            widthActive:'110px',
-            widthActivePhone:'90px',
-            widthActiveSmallPhone:'75px'
-        },
     ]
 }
 
@@ -269,6 +260,15 @@ const library = {
             widthActivePhone:'90px',
             widthActiveSmallPhone:'85px'
         },
+        {
+            nameSkill:'Redux',
+            icon:'icons/redux-icon.svg',
+            widthSkillName:'50px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'75px'
+        },
     ]
 }
 
@@ -302,6 +302,10 @@ const projects = [
     {
         id:7,
         image:'./images/project7.webp',
+    },
+    {
+        id:8,
+        image:'./images/project8.webp',
     },
 
 ];
@@ -480,6 +484,26 @@ const dataProjects = [
             './icons/figma-icon.svg',  
         ], 
         link: 'https://muhismailmks.github.io/tastyCuisine/', 
+    },
+    {
+        id:8,
+        nameProject:'Tasty Cuisine',
+        aboutProject:`a simple To-Do List using HTML, CSS, and JavaScript.`,  
+        startProject: '21/June/2023',
+        finishedProject: '06/August/2023',
+        imageProject: './images/project8.webp',
+        imageSeledtedProject: [
+            './images/project8.webp',   
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/javascript-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',  
+        ], 
+        link: 'https://muhismailmks.github.io/todo_list/', 
     },  
 ]
 
