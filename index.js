@@ -29,11 +29,7 @@ links.forEach(link => {
       console.log('sudah');
     }, 500);
   });
-});
-
-
-
-
+}); 
  
 
 
@@ -55,9 +51,7 @@ svgName.add({
     })
   }
 }, '+=0'); 
-
-
-
+ 
 
 // ABOUT ME SECTION
 // personal info
@@ -183,9 +177,7 @@ projects.forEach(project => {
       `   
       addDivToContainer(createProject);
 });
-
  
-
 
 //  details project container
 const projectDetailsContainer = document.querySelector('.project-details') 
@@ -334,6 +326,23 @@ closeDetailsProject.addEventListener('click',(e) => {
 
   containerDetailsProject.classList.remove('active');
 });
- 
+
+
+
+
+
+
+
+
+
+// cobs
+let str1 = "./images/project1.png";
+let str2 = "./video/project1.mp4";
+
+let isStartsWithImages = str1.startsWith("./images");
+let isStartsWithVideo = str2.startsWith("./images");
+
+console.log(isStartsWithImages);  // Output: true
+console.log(isStartsWithVideo);   // Output: false
 
  
