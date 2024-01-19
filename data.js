@@ -26,7 +26,6 @@ const personalInfo = [
     },
 ]
 
-
 //  skills
 const generalSkill = {
     title : 'generalSkill', 
@@ -72,7 +71,7 @@ const generalSkill = {
   
 
 const cssTech = { 
-    title : 'CSSTech', 
+    title : 'CSS Tech', 
     skills : [
         {
             nameSkill:'BootStrap',
