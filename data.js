@@ -487,13 +487,13 @@ const dataProjects = [
     },
     {
         id:8,
-        nameProject:'Tasty Cuisine',
-        aboutProject:`a simple To-Do List using HTML, CSS, and JavaScript.`,  
+        nameProject:'To Do List',
+        aboutProject:`Example of CRUD in web programming, Simple To-Do List using HTML, CSS, and JavaScript.`,  
         startProject: '21/June/2023',
         finishedProject: '06/August/2023',
         imageProject: './images/project8.webp',
         imageSeledtedProject: [
-            './images/project8.webp',   
+            './images/project8.webp',  
         ],
         techUses:[ 
             './icons/html-icon.svg',  

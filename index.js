@@ -202,10 +202,9 @@ const toolsDetailsProjectContainer = document.querySelector('.project-tools-cont
 
 
 // project click for details project
-const projectsClick = document.querySelectorAll('.project-click'); 
+const aboutProjectClick = document.querySelectorAll('.project-click');  
 
-
-projectsClick.forEach(project => {
+aboutProjectClick.forEach(project => {
   const idProject = project.dataset.idproject; 
   const findDataProject = dataProjects.find((element) => {
     return element.id === parseInt(idProject,10)
@@ -245,34 +244,35 @@ projectsClick.forEach(project => {
               null
             }
 
-            //  image project
+            //  image or video project 
             mainImageDetailsProject.setAttribute('src',findDataProject.imageProject)
 
 
-
-            //  selected image
-            findDataProject.imageSeledtedProject.map(projectselect => { 
+            //  selected image  
+            findDataProject.imageSeledtedProject.map(projectselect => {    
               const createContainerImage = document.createElement('swiper-slide');
               const createImage = document.createElement('img')
               createContainerImage.appendChild(createImage); 
 
-              createImage.setAttribute('src',projectselect); 
+              function srcImage(){
+                  if(projectselect.length == 2){
+                    createImage.setAttribute('data-video',`${projectselect[1]}`);  
+                    return projectselect[0]
+                  } else {
+                    return projectselect
+                  }
+                }
+                
+              createImage.setAttribute('src',srcImage())
               createImage.setAttribute('alt','image-project');  
 
               seledtedContainerImageDetailsProject.appendChild(createContainerImage);
-            });
 
-            seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {
-              const srcImage = imgSrc.target.src; 
-              mainImageDetailsProject.classList.remove('active');
-              if(srcImage === undefined){
-                mainImageDetailsProject.setAttribute('src',findDataProject.imageProject)
-              } else {
-                mainImageDetailsProject.setAttribute('src', srcImage);
-                mainImageDetailsProject.classList.add('active');
-              }
-            })
+              
+             
+             });            
 
+            
 
             //   tools and tech  
             findDataProject.techUses.map(tech => { 
@@ -287,11 +287,8 @@ projectsClick.forEach(project => {
               toolsDetailsProjectContainer.appendChild(createIconProject);
     
             })
-
-            
-
-            //  link project 
-
+ 
+            //  link project  
             if(findDataProject.link === false){ 
                 containerVisitProject.innerHTML = `
                 <button class="disablet">
@@ -311,13 +308,27 @@ projectsClick.forEach(project => {
               const linkProject = document.querySelector('.link-to-website')
               linkProject.appendChild(linkTag)
               linkTag.setAttribute('href', findDataProject.link );
-            }
-
-
+            } 
           }
     }) 
-    
+ 
 });
+
+  // handler project media click
+  seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {   
+    const srcImage = imgSrc.target.src; 
+    // console.log(imgSrc.target);
+    mainImageDetailsProject.classList.remove('active');
+
+    if(srcImage === undefined){ 
+      mainImageDetailsProject.setAttribute('src',findDataProject.imageProject);
+    } else {
+      mainImageDetailsProject.setAttribute('src', srcImage);
+      mainImageDetailsProject.classList.add('active');
+
+    }
+  })
+
 
 
 // details project
@@ -326,23 +337,5 @@ closeDetailsProject.addEventListener('click',(e) => {
 
   containerDetailsProject.classList.remove('active');
 });
-
-
-
-
-
-
-
-
-
-// cobs
-let str1 = "./images/project1.png";
-let str2 = "./video/project1.mp4";
-
-let isStartsWithImages = str1.startsWith("./images");
-let isStartsWithVideo = str2.startsWith("./images");
-
-console.log(isStartsWithImages);  // Output: true
-console.log(isStartsWithVideo);   // Output: false
 
  
