@@ -25,8 +25,7 @@ links.forEach(link => {
   link.addEventListener('click', () => {
     nav.classList.remove('active');
     menuBtn.classList.remove('active');
-    setTimeout(() => {
-      console.log('sudah');
+    setTimeout(() => { 
     }, 500);
   });
 }); 
@@ -115,9 +114,6 @@ skillTechContainer.innerHTML += DBTechSkill;
 skillTechContainer.innerHTML += librarySkill; 
 
 
-
-
-
 const projectsSlideContainer = document.querySelector('.slide-container');
 ;
 
@@ -186,7 +182,11 @@ const startDetailsProject = document.querySelector('.finished-project .start');
 const completedDetailsProject = document.querySelector('.finished-project .finished');
 
 // image project
-const mainImageDetailsProject = document.querySelector('.project-image-container .image img');
+const mainImageDetailsProject = document.querySelector('.project-media-container .media img');
+const mainVideoDetailsProject = document.querySelector('.project-media-container .media video ');
+const mainMediaDetailsProject = document.querySelector('.project-media-container .media');
+
+
 const seledtedContainerImageDetailsProject = document.querySelector('.selected-image');
 
 // about project
@@ -312,22 +312,29 @@ aboutProjectClick.forEach(project => {
           }
     }) 
  
-});
+});  
 
-  // handler project media click
-  seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {   
+ // handler project media click
+seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {   
+    mainImageDetailsProject.classList.remove('none')
+    mainVideoDetailsProject.classList.remove('none') 
     const srcImage = imgSrc.target.src; 
-    // console.log(imgSrc.target);
-    mainImageDetailsProject.classList.remove('active');
+    const targetHandler = imgSrc.target;  
 
-    if(srcImage === undefined){ 
-      mainImageDetailsProject.setAttribute('src',findDataProject.imageProject);
-    } else {
+
+    mainImageDetailsProject.classList.remove('active'); 
+
+    if(targetHandler.getAttribute("data-video")){
+      mainImageDetailsProject.classList.add('none')
+      mainVideoDetailsProject.classList.remove('none') 
+      mainVideoDetailsProject.querySelector('source').setAttribute('src',targetHandler.getAttribute("data-video"));  
+      mainVideoDetailsProject.load();
+    } else {   
+      mainVideoDetailsProject.classList.add('none') 
+      mainImageDetailsProject.classList.remove('none')
       mainImageDetailsProject.setAttribute('src', srcImage);
-      mainImageDetailsProject.classList.add('active');
-
-    }
-  })
+    } 
+})
 
 
 

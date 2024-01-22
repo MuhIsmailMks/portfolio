@@ -493,6 +493,7 @@ const dataProjects = [
         imageProject: './images/project8.webp',
         imageSeledtedProject: [
             './images/project8.webp',  
+            // ['./images/project1-image4.png','./video/project6.mp4'],  
         ],
         techUses:[ 
             './icons/html-icon.svg',  
