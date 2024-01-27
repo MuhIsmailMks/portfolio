@@ -270,9 +270,7 @@ aboutProjectClick.forEach(project => {
 
               
              
-             });            
-
-            
+             });                  
 
             //   tools and tech  
             findDataProject.techUses.map(tech => { 
@@ -321,7 +319,6 @@ seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {
     const srcImage = imgSrc.target.src; 
     const targetHandler = imgSrc.target;  
 
-
     mainImageDetailsProject.classList.remove('active'); 
 
     if(targetHandler.getAttribute("data-video")){
@@ -341,7 +338,6 @@ seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {
 // details project
 closeDetailsProject.addEventListener('click',(e) => { 
   const containerDetailsProject = e.target.closest('.project-details');
-
   containerDetailsProject.classList.remove('active');
 });
 
