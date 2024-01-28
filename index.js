@@ -218,7 +218,7 @@ aboutProjectClick.forEach(project => {
         // take data from project
           if(findDataProject){
 
-            // reset project value 
+            // reset project all value 
             techDetailsProjectContainer.innerHTML = ''
             toolsDetailsProjectContainer.innerHTML = ''
             seledtedContainerImageDetailsProject.innerHTML = '' 
@@ -227,7 +227,6 @@ aboutProjectClick.forEach(project => {
 
           // set value data projects to project details
             startDetailsProject.innerHTML = `${findDataProject.startProject}`
-
             completedDetailsProject.innerHTML = `${findDataProject.finishedProject}`
 
 
