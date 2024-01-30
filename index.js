@@ -253,6 +253,7 @@ aboutProjectClick.forEach(project => {
               const createImage = document.createElement('img')
               createContainerImage.appendChild(createImage); 
 
+              // will check whether the image has other attributes
               function srcImage(){
                   if(projectselect.length == 2){
                     createImage.setAttribute('data-video',`${projectselect[1]}`);  
