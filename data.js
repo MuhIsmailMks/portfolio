@@ -266,7 +266,7 @@ const library = {
         },
         {
             nameSkill:'Material UI',
-            icon:'icons/redux-icon.svg',
+            icon:'icons/material_ui-icon.svg',
             widthSkillName:'70px',
             widthSkillNamePhone:'90px',
             widthActive:'130px',
