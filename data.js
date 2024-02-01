@@ -17,13 +17,9 @@ const personalInfo = [
         info : 'Computer and Network Engineering',
     },
     {
-        aboutInfo : 'Country',
+        aboutInfo : 'Location',
         info : 'Makassar, Indonesia',
-    },
-    {
-        aboutInfo : 'Address',
-        info : 'Biringkanaya BTP NHP Blok D3',
-    },
+    }, 
 ]
 
 //  skills
@@ -78,7 +74,7 @@ const cssTech = {
             icon:'icons/bootstrap-icon.svg',
             widthSkillName:'60px',
             widthSkillNamePhone:'90px',
-            widthActive:'140px',
+            widthActive:'130px',
             widthActivePhone:'100px',
             widthActiveSmallPhone:'90px'
         },
@@ -149,7 +145,7 @@ const JavascriptTech = {
     title : 'JavaScript Tech', 
     skills : [
         {
-            nameSkill:'NodeJS',
+            nameSkill:'Node.JS',
             icon:'icons/nodejs-icon.svg',
             widthSkillName:'60px',
             widthSkillNamePhone:'90px',
@@ -265,6 +261,15 @@ const library = {
             widthSkillName:'50px',
             widthSkillNamePhone:'90px',
             widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'75px'
+        },
+        {
+            nameSkill:'Material UI',
+            icon:'icons/redux-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'130px',
             widthActivePhone:'90px',
             widthActiveSmallPhone:'75px'
         },
