@@ -1,6 +1,5 @@
-
 // screen width
-var screenWidth = window.innerWidth;
+let screenWidth = window.innerWidth;
 
 function valueScreen() {
   return screenWidth
