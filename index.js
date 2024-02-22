@@ -43,7 +43,7 @@ svgName.add({
   duration: 1500,
   delay: function (el, i) { return i * 220 },
   complete: function () {
-    var path = document.querySelectorAll('.svg path');
+    let path = document.querySelectorAll('.svg path');
     path.forEach(pathSvg => {
       pathSvg.classList.add('active');
     })
@@ -118,7 +118,7 @@ const projectsSlideContainer = document.querySelector('.slide-container');
 
 window.addEventListener("DOMContentLoaded",() => {
   
-      var swiper = new Swiper(".projects-slide", {
+      let swiper = new Swiper(".projects-slide", {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -132,22 +132,21 @@ window.addEventListener("DOMContentLoaded",() => {
 })
 
  
-var containerCount = 0;  
-var maxDivPerSwiper = 6;   
+let containerCount = 0;  
+let maxDivPerSwiper = 6;   
  
 // create new container for project
 function createContainer() {
-  var container = document.createElement("div");
+  let container = document.createElement("div");
   containerCount++;
   container.className = 'project-container swiper-slide  '
   container.id = "swiper_sld-" + containerCount;
   return container;
 } 
 
-
 // add project to container and limit count project in container
 function addDivToContainer(div) {
-  var currentSwiperContainer = document.getElementById("swiper_sld-" + containerCount);
+  let currentSwiperContainer = document.getElementById("swiper_sld-" + containerCount);
  
     if (!currentSwiperContainer || currentSwiperContainer.childElementCount === maxDivPerSwiper) {
       currentSwiperContainer = createContainer(); 
@@ -158,7 +157,7 @@ function addDivToContainer(div) {
 }
 
 projects.forEach(project => {
-        var createProject = document.createElement('div');
+        let createProject = document.createElement('div');
         createProject.className = 'project';
         createProject.innerHTML += ` 
               <div class="project-click" data-idProject="${project.id}">
