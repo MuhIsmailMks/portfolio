@@ -329,8 +329,7 @@ seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {
       mainImageDetailsProject.classList.remove('none')
       mainImageDetailsProject.setAttribute('src', srcImage);
     } 
-})
-
+});
 
 
 // details project
