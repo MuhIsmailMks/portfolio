@@ -331,7 +331,6 @@ seledtedContainerImageDetailsProject.addEventListener('click',(imgSrc) => {
     } 
 });
 
-
 // details project
 closeDetailsProject.addEventListener('click',(e) => { 
   const containerDetailsProject = e.target.closest('.project-details');
