@@ -261,6 +261,8 @@ sans-serif;
 // styling
 html {
     scroll-behavior: smooth;
+    background-color: $body_color;
+    padding-top: 5rem;
 }
 
 body {
@@ -279,11 +281,6 @@ body {
             }
         }
     }  
-}
-
-html {
-    background-color: $body_color;
-    padding-top: 5rem;
 }
 
 .section-title{
@@ -488,8 +485,7 @@ header nav.active {
     // hero content
     .hero-web_content {
         position: relative;
-        width: 100%;
-        position: relative;
+        width: 100%; 
         color: white;
         font-family: $plus_jakartaSans;
 
@@ -1569,8 +1565,7 @@ swiper-slide {
             border: 1px solid #98F5FF5C;
             cursor: pointer;
 
-            transition: .3s ease-in-out;
-            // opacity: .7;
+            transition: .3s ease-in-out; 
             h3{
                 @include group-title-font();
                 font-size: 1.25rem;
