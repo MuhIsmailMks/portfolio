@@ -28,8 +28,6 @@ links.forEach(link => {
     }, 500);
   });
 }); 
- 
-
 
 //  svg name animation
 const svgName = anime.timeline({
