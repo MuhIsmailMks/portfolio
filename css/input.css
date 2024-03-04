@@ -576,12 +576,12 @@ header nav.active {
 }
 
 .box-skill {
-  width: 30%;
-  height: 38px;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 30%;
+  height: 38px;
+  position: relative;
 }
 
 .skill {

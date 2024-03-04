@@ -685,7 +685,6 @@ header nav.active {
             width: 100%;
             max-width: 100%;
             height: auto;
-            
 
             p {
                 width: 126px;
@@ -704,8 +703,7 @@ header nav.active {
     }
 
     // Short Summary
-    .short-summary {
-
+    .short-summary { 
         article {
             @include setting-default-container();
             max-width: 100%;
@@ -746,11 +744,11 @@ header nav.active {
 
 // skill styiling
 .box-skill {
+    @include flex-center();
+    
     width: 30%;
     height: 38px;
     position: relative;
-
-    @include flex-center();
 }
 
 .skill {
