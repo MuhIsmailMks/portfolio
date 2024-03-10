@@ -64,7 +64,6 @@ const generalSkill = {
     },
     ]
 }
-  
 
 const cssTech = { 
     title : 'CSS Tech', 
