@@ -169,7 +169,7 @@ projects.forEach(project => {
       `   
       addDivToContainer(createProject);
 });
- 
+
 
 //  details project container
 const projectDetailsContainer = document.querySelector('.project-details') 
