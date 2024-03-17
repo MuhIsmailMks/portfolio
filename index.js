@@ -116,7 +116,7 @@ const projectsSlideContainer = document.querySelector('.slide-container');
 
 window.addEventListener("DOMContentLoaded",() => {
   
-      let swiper = new Swiper(".projects-slide", {
+      new Swiper(".projects-slide", {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
