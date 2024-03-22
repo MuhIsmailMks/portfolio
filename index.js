@@ -102,7 +102,6 @@ const JavascriptTechSkill = skilltech(JavascriptTech);
 const DBTechSkill = skilltech(DBTech_Tools);
 const librarySkill = skilltech(library);
 
-
 skillTechContainer.innerHTML += generalSkills;
 skillTechContainer.innerHTML += cssTechSkill;
 skillTechContainer.innerHTML += toolsTechSkill;
