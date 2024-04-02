@@ -365,7 +365,7 @@ const dataProjects = [
     {
         id:3,
         nameProject:'BMW cars',
-        aboutProject:'This website was created because I was studying ReactJS, because I like BMW cars, I was inspired to create this website. I have learned a lot about ReactJS while this website was being created, such as hooks, routers, components and many more, I also use animation from the Framer Motion library.',
+        aboutProject:'This website was created because I was studying ReactJS, with the car theme I was inspired to create this website. I have learned a lot about ReactJS during the creation of this website, such as hooks, routers, components and much more, I also used animations from the Framer Motion library.',
         startProject: '20/June/2023',
         finishedProject: '08/November/2023',
         imageProject: './images/project3.png',
@@ -379,6 +379,7 @@ const dataProjects = [
             './icons/react-icon.svg',
             './icons/javascript-icon.svg', 
             './icons/nodejs-icon.svg', 
+            './icons/css-icon.svg', 
         ],
         toolsUses:[
             './icons/figma-icon.svg',
