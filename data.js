@@ -390,7 +390,7 @@ const dataProjects = [
     {
         id:4,
         nameProject:'Eset Up',
-        aboutProject:`a landing page was built in just 1 day, because I didn't want to waste time on design at that time I took a Figma template from someone else, and I converted the design to HTML, CSS and Javascript, I started from 7 am until the next day at 8 am, yep, this landing page only takes a little time and is responsive on all devices.`,
+        aboutProject:`The landing page was created in just 1 day, because I didn't want to waste time on design, I took a Figma template from someone else, and I converted the design to HTML, CSS and Javascript, I started from 7 am until the next day at 8 am, This landing page only takes a little time and is responsive on all devices.`,
         startProject: '15/June/2023',
         finishedProject: '16/June/2023',
         imageProject: './images/project4.webp',
