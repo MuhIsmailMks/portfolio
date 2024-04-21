@@ -1835,6 +1835,12 @@ swiper-slide img {
   width: 100%;
   height: 100%;
 }
+.contact .triangle-background {
+  width: 100%;
+  height: 100%;
+  max-width: 1500px;
+  position: absolute;
+}
 .contact .triangle {
   position: absolute;
   width: 172px;

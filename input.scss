@@ -1723,6 +1723,13 @@ swiper-slide {
     }
 
     // triangle-background
+    .triangle-background{ 
+        width: 100%;
+        height: 100%;
+        max-width: 1500px;
+        position: absolute;
+    }
+    
     .triangle{
         position: absolute;
         width: 172px;
@@ -1733,7 +1740,7 @@ swiper-slide {
 
         -webkit-clip-path: polygon(74% 0, 0% 100%, 100% 100%);
         clip-path: polygon(74% 0, 0% 100%, 100% 100%);
-
+ 
         &._1{
             left: 30%;
             bottom: 25%; 
