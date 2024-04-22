@@ -20,7 +20,8 @@ const personalInfo = [
         aboutInfo : 'Location',
         info : 'Makassar, Indonesia',
     }, 
-]
+];
+
 
 //  skills
 const generalSkill = {
