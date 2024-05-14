@@ -179,6 +179,15 @@ const JavascriptTech = {
             widthActive:'130px',
             widthActivePhone:'110px',
             widthActiveSmallPhone:'100px'
+        },     
+        {
+            nameSkill:'Jquery',
+            icon:'icons/jquery-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'85px'
         },
     ]
 }
@@ -243,15 +252,6 @@ const library = {
             widthSkillName:'70px',
             widthSkillNamePhone:'90px',
             widthActive:'120px',
-            widthActivePhone:'90px',
-            widthActiveSmallPhone:'85px'
-        },
-        {
-            nameSkill:'Jquery',
-            icon:'icons/jquery-icon.svg',
-            widthSkillName:'70px',
-            widthSkillNamePhone:'90px',
-            widthActive:'110px',
             widthActivePhone:'90px',
             widthActiveSmallPhone:'85px'
         },
