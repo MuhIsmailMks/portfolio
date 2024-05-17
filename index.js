@@ -8,7 +8,6 @@ function valueScreen() {
 window.addEventListener('resize', function () {
   screenWidth = window.innerWidth; 
 });
- 
 
 // navigation
 const menuBtn = document.querySelector('.menu-button');
