@@ -2,7 +2,7 @@
 let screenWidth = window.innerWidth;
 
 function valueScreen() {
-  return screenWidth
+  return screenWidth;
 }
 
 window.addEventListener('resize', function () {
