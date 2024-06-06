@@ -60,6 +60,7 @@ const infoPerson = personalInfo.map((info,i) => {
   </div>
   `
 })
+
 infoPersonContainer.innerHTML += infoPerson;
 
 
