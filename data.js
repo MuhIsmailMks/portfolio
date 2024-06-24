@@ -20,7 +20,8 @@ const personalInfo = [
         aboutInfo : 'Location',
         info : 'Makassar, Indonesia',
     }, 
-]
+];
+
 
 //  skills
 const generalSkill = {
@@ -178,6 +179,15 @@ const JavascriptTech = {
             widthActive:'130px',
             widthActivePhone:'110px',
             widthActiveSmallPhone:'100px'
+        },     
+        {
+            nameSkill:'Jquery',
+            icon:'icons/jquery-icon.svg',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'110px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'85px'
         },
     ]
 }
@@ -242,15 +252,6 @@ const library = {
             widthSkillName:'70px',
             widthSkillNamePhone:'90px',
             widthActive:'120px',
-            widthActivePhone:'90px',
-            widthActiveSmallPhone:'85px'
-        },
-        {
-            nameSkill:'Jquery',
-            icon:'icons/jquery-icon.svg',
-            widthSkillName:'70px',
-            widthSkillNamePhone:'90px',
-            widthActive:'110px',
             widthActivePhone:'90px',
             widthActiveSmallPhone:'85px'
         },
@@ -365,7 +366,7 @@ const dataProjects = [
     {
         id:3,
         nameProject:'BMW cars',
-        aboutProject:'This website was created because I was studying ReactJS, because I like BMW cars, I was inspired to create this website. I have learned a lot about ReactJS while this website was being created, such as hooks, routers, components and many more, I also use animation from the Framer Motion library.',
+        aboutProject:'This website was created because I was studying ReactJS, with the car theme I was inspired to create this website. I have learned a lot about ReactJS during the creation of this website, such as hooks, routers, components and much more, I also used animations from the Framer Motion library.',
         startProject: '20/June/2023',
         finishedProject: '08/November/2023',
         imageProject: './images/project3.png',
@@ -379,6 +380,7 @@ const dataProjects = [
             './icons/react-icon.svg',
             './icons/javascript-icon.svg', 
             './icons/nodejs-icon.svg', 
+            './icons/css-icon.svg', 
         ],
         toolsUses:[
             './icons/figma-icon.svg',
@@ -389,7 +391,7 @@ const dataProjects = [
     {
         id:4,
         nameProject:'Eset Up',
-        aboutProject:`a landing page was built in just 1 day, because I didn't want to waste time on design at that time I took a Figma template from someone else, and I converted the design to HTML, CSS and Javascript, I started from 7 am until the next day at 8 am, yep, this landing page only takes a little time and is responsive on all devices.`,
+        aboutProject:`The landing page was created in just 1 day, because I didn't want to waste time on design, I took a Figma template from someone else, and I converted the design to HTML, CSS and Javascript, I started from 7 am until the next day at 8 am, This landing page only takes a little time and is responsive on all devices.`,
         startProject: '15/June/2023',
         finishedProject: '16/June/2023',
         imageProject: './images/project4.webp',

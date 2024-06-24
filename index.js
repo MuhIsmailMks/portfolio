@@ -2,13 +2,12 @@
 let screenWidth = window.innerWidth;
 
 function valueScreen() {
-  return screenWidth
+  return screenWidth;
 }
 
 window.addEventListener('resize', function () {
   screenWidth = window.innerWidth; 
 });
- 
 
 // navigation
 const menuBtn = document.querySelector('.menu-button');
@@ -61,6 +60,7 @@ const infoPerson = personalInfo.map((info,i) => {
   </div>
   `
 })
+
 infoPersonContainer.innerHTML += infoPerson;
 
 
@@ -102,7 +102,6 @@ const JavascriptTechSkill = skilltech(JavascriptTech);
 const DBTechSkill = skilltech(DBTech_Tools);
 const librarySkill = skilltech(library);
 
-
 skillTechContainer.innerHTML += generalSkills;
 skillTechContainer.innerHTML += cssTechSkill;
 skillTechContainer.innerHTML += toolsTechSkill;
@@ -115,7 +114,6 @@ const projectsSlideContainer = document.querySelector('.slide-container');
 ;
 
 window.addEventListener("DOMContentLoaded",() => {
-  
       new Swiper(".projects-slide", {
         navigation: {
           nextEl: ".swiper-button-next",
