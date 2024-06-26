@@ -311,6 +311,10 @@ const projects = [
         id:8,
         image:'./images/project8.webp',
     },
+    {
+        id:9,
+        image:'./images/project9.png',
+    },
 
 ];
 
@@ -510,6 +514,27 @@ const dataProjects = [
             './icons/figma-icon.svg',  
         ], 
         link: 'https://muhismailmks.github.io/todo_list/', 
+    },  
+    {
+        id:9,
+        nameProject:'Xenon AGI',
+        aboutProject:`a website with a crypto theme, I created it with the client's wishes, at first I just started as a freelance web developer.`,  
+        startProject: '14/Apr/2024',
+        finishedProject: '16/Apr/2024',
+        imageProject: './images/project9.png',
+        imageSeledtedProject: [
+            './images/project9.png',  
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/tailwindcss-icon.svg',  
+            './icons/javascript-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/github-icon.svg',  
+        ], 
+        link: 'https://muhismailmks.github.io/Xenon/', 
     },  
 ]
 
