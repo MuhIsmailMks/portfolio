@@ -524,6 +524,9 @@ const dataProjects = [
         imageProject: './images/project9.png',
         imageSeledtedProject: [
             './images/project9.png',  
+            './images/project9-image1.png',  
+            './images/project9-image2.png',  
+            './images/project9-image3.png',  
         ],
         techUses:[ 
             './icons/html-icon.svg',  
