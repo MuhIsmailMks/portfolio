@@ -315,6 +315,10 @@ const projects = [
         id:9,
         image:'./images/project9.png',
     },
+    {
+        id:10,
+        image:'./images/project10.png',
+    },
 
 ];
 
@@ -538,6 +542,29 @@ const dataProjects = [
             './icons/github-icon.svg',  
         ], 
         link: 'https://muhismailmks.github.io/Xenon/', 
+    },  
+    {
+        id:10,
+        nameProject:'Dawae',
+        aboutProject:`a cloned website with some changes, this website also has dawae games on laptops and desktops, one of my freelance projects.`,  
+        startProject: '13/Jun/2024',
+        finishedProject: '18/Jun/2024',
+        imageProject: './images/project10.png',
+        imageSeledtedProject: [
+            './images/project10.png',   
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/tailwindcss-icon.svg',  
+            './icons/javascript-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',  
+            './icons/github-icon.svg',  
+            './icons/git-icon.svg',  
+        ], 
+        link: 'https://muhismailmks.github.io/Dawae/', 
     },  
 ]
 
