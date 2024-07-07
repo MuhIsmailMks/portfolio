@@ -547,7 +547,7 @@ const dataProjects = [
         id:10,
         nameProject:'Dawae',
         aboutProject:`a cloned website with some changes, this website also has dawae games on laptops and desktops, one of my freelance projects.`,  
-        startProject: '13/Jun/2024',
+        startProject: '15/Jun/2024',
         finishedProject: '18/Jun/2024',
         imageProject: './images/project10.png',
         imageSeledtedProject: [
