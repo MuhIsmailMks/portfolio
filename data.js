@@ -540,6 +540,7 @@ const dataProjects = [
         ],
         toolsUses:[
             './icons/github-icon.svg',  
+            './icons/git-icon.svg',  
         ], 
         link: 'https://muhismailmks.github.io/Xenon/', 
     },  
