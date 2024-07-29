@@ -287,21 +287,30 @@ html {
 
 body {
     &::-webkit-scrollbar {
-        width: 10px;
+        width: 5px;
 
         &-track{
             background-color: #000000;
         }
 
         &-thumb{
-            background-color:rgb(255, 255, 255);
-
-            &:hover{
-                background-color: $primary_color;
-            }
+         background-color:rgb(255, 255, 255);
+         border-radius:10px ;
+         
+         -webkit-border-radius:10px ;
+         -moz-border-radius:10px ;
+         -ms-border-radius:10px ;
+         -o-border-radius:10px ;
+         &:hover{
+        
+            background-color: $primary_color; 
+        }
         }
     }  
 }
+
+
+
 
 .section-title{
     width: auto;
