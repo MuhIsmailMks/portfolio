@@ -25,7 +25,7 @@ const personalInfo = [
 
 //  skills
 const generalSkill = {
-    title : 'generalSkill', 
+    title : 'general', 
     skills : [
     {
         nameSkill:'HTML',
