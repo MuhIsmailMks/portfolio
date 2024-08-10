@@ -319,6 +319,10 @@ const projects = [
         id:10,
         image:'./images/project10.png',
     },
+    {
+        id:11,
+        image:'./images/project11.png',
+    },
 
 ];
 
@@ -544,6 +548,7 @@ const dataProjects = [
         ], 
         link: 'https://muhismailmks.github.io/Xenon/', 
     },  
+
     {
         id:10,
         nameProject:'Dawae',
@@ -566,6 +571,29 @@ const dataProjects = [
             './icons/git-icon.svg',  
         ], 
         link: 'https://muhismailmks.github.io/Dawae/', 
+    },  
+    {
+        id:11,
+        nameProject:'Nutzpad',
+        aboutProject:`Nutzpad crypto meme website, a crypto meme website made with html, tailwind css, and javascript. this website also uses gsap animation and one of my freelance projects.`,  
+        startProject: '15/Jun/2024',
+        finishedProject: '18/Jun/2024',
+        imageProject: './images/project11.png',
+        imageSeledtedProject: [
+            './images/project11.png',   
+        ],
+        techUses:[ 
+            './icons/html-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/tailwindcss-icon.svg',  
+            './icons/javascript-icon.svg',  
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',  
+            './icons/github-icon.svg',  
+            './icons/git-icon.svg',  
+        ], 
+        link: 'https://muhismailmks.github.io/Nutzpad2/', 
     },  
 ]
 
