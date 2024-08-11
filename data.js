@@ -576,8 +576,8 @@ const dataProjects = [
         id:11,
         nameProject:'Nutzpad',
         aboutProject:`Nutzpad crypto meme website, a crypto meme website made with html, tailwind css, and javascript. this website also uses gsap animation and one of my freelance projects.`,  
-        startProject: '15/Jun/2024',
-        finishedProject: '18/Jun/2024',
+        startProject: '30/Jul/2024',
+        finishedProject: '31/Jul/2024',
         imageProject: './images/project11.png',
         imageSeledtedProject: [
             './images/project11.png',   
