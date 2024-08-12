@@ -273,6 +273,15 @@ const library = {
             widthActivePhone:'90px',
             widthActiveSmallPhone:'75px'
         },
+        {
+            nameSkill:'GSAP',
+            icon:'icons/gsap.png',
+            widthSkillName:'70px',
+            widthSkillNamePhone:'90px',
+            widthActive:'100px',
+            widthActivePhone:'90px',
+            widthActiveSmallPhone:'75px'
+        },
     ]
 }
 
