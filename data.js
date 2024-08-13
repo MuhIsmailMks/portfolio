@@ -571,8 +571,8 @@ const dataProjects = [
         techUses:[ 
             './icons/html-icon.svg',  
             './icons/css-icon.svg',  
-            './icons/tailwindcss-icon.svg',  
-            './icons/javascript-icon.svg',  
+            './icons/tailwindcss-icon.svg',   
+            './icons/jquery-icon.svg',   
         ],
         toolsUses:[
             './icons/figma-icon.svg',  
