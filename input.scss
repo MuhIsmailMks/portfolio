@@ -131,11 +131,16 @@ sans-serif;
     z-index: 0;
     height: 1px;
     width: 1px;
-    box-shadow: 0px 5px 176.89999389648438px 35px #A6F6FF;
+    box-shadow: 0px 5px 176.89999389648438px 35px #A6F6FF; 
 
     @media screen and (max-width:600px) {
         box-shadow: 0px 5px 120px 25px #A6F6FF;
     }
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 @mixin light2 {
@@ -152,6 +157,12 @@ sans-serif;
     @media screen and (max-width:600px) {
         box-shadow: 0px 4px 170px 30px #A6F6FF;
     }
+
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 
 /* font / text styling */
@@ -332,7 +343,7 @@ header {
     @include flex-between();
     height: 100px;
     width: 100%;
-    max-width: 1600px;
+    max-width: 2100px;
     z-index: 999;
 
     padding: 0 2rem;
@@ -424,6 +435,10 @@ header nav {
 
                 &:hover {
                     color: $primary_color;
+                }
+
+                @media screen and (min-width:1800px) {
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -637,7 +652,7 @@ header nav.active {
             flex-direction: column;
 
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 2100px;
     background: #33333321;
     border: 1px 3px solid #3D3D3D;
     -webkit-box-shadow: 0px 4px 17.399999618530273px 0px #00000040;
