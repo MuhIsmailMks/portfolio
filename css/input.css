@@ -353,6 +353,7 @@ header nav.active {
   position: absolute;
   z-index: 0;
   height: 1px;
+  filter: blur(3rem);
   width: 1px;
   box-shadow: 0px 5px 176.8999938965px 35px #A6F6FF;
   border-radius: 100%;
@@ -377,13 +378,9 @@ header nav.active {
   position: absolute;
   z-index: 0;
   height: 1px;
+  filter: blur(3rem);
   width: 1px;
   box-shadow: 0px 4px 250px 58px #A6F6FF;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
   bottom: 0%;
   left: 48%;
 }
@@ -1556,6 +1553,7 @@ swiper-slide img {
   position: absolute;
   z-index: 0;
   height: 1px;
+  filter: blur(3rem);
   width: 1px;
   box-shadow: 0px 5px 176.8999938965px 35px #A6F6FF;
   border-radius: 100%;
@@ -1578,6 +1576,7 @@ swiper-slide img {
   position: absolute;
   z-index: 0;
   height: 1px;
+  filter: blur(3rem);
   width: 1px;
   box-shadow: 0px 5px 176.8999938965px 35px #A6F6FF;
   border-radius: 100%;
