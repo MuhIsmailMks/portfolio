@@ -601,6 +601,7 @@ const dataProjects = [
             './icons/figma-icon.svg',  
             './icons/github-icon.svg',  
             './icons/git-icon.svg',  
+            './icons/gsap.png',  
         ], 
         link: 'https://muhismailmks.github.io/Nutzpad2/', 
     },  
