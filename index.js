@@ -157,7 +157,7 @@ projects.forEach(project => {
         createProject.className = 'project';
         createProject.innerHTML += ` 
               <div class="project-click" data-idProject="${project.id}">
-                  <img src="${project.image}" alt="">
+                  <img src="${project.image}" alt="${project.image}" loading="lazy">
                   <div class="read-more">
                     <span>
                        <p>Read More</p>  
