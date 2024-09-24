@@ -29,24 +29,25 @@ links.forEach(link => {
 }); 
 
 //  svg name animation
-const svgName = anime.timeline({
-  autoplay: true,  
+window.addEventListener('DOMContentLoaded', () => {
+  const svgName = anime.timeline({
+    autoplay: true,  
+  })
+  
+  svgName.add({
+    targets: '.svg path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function (el, i) { return i * 220 },
+    complete: function () {
+      let path = document.querySelectorAll('.svg path');
+      path.forEach(pathSvg => {
+        pathSvg.classList.add('active');
+      })
+    }
+  }, '+=0');   
 })
-
-svgName.add({
-  targets: '.svg path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 1500,
-  delay: function (el, i) { return i * 220 },
-  complete: function () {
-    let path = document.querySelectorAll('.svg path');
-    path.forEach(pathSvg => {
-      pathSvg.classList.add('active');
-    })
-  }
-}, '+=0'); 
- 
 
 // ABOUT ME SECTION
 // personal info
