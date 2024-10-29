@@ -332,6 +332,10 @@ const projects = [
         id:11,
         image:'./images/project11.png',
     },
+    {
+        id:12,
+        image:'./images/project12.png',
+    },
 
 ];
 
@@ -557,7 +561,6 @@ const dataProjects = [
         ], 
         link: 'https://muhismailmks.github.io/Xenon/', 
     },  
-
     {
         id:10,
         nameProject:'Dawae',
@@ -604,6 +607,29 @@ const dataProjects = [
             './icons/gsap.png',  
         ], 
         link: 'https://muhismailmks.github.io/Nutzpad2/', 
+    },  
+    {
+        id:12,
+        nameProject:'Robotron',
+        aboutProject:`create a crypto website with a robot theme, this website is made with react and gsap animation, a website with a meme maker on the generator page.`,  
+        startProject: '16/Sep/2024',
+        finishedProject: '28/Sep/2024',
+        imageProject: './images/project12.png',
+        imageSeledtedProject: [
+            './images/project12.png',   
+        ],
+        techUses:[ 
+            './icons/react-icon.svg',  
+            './icons/css-icon.svg',  
+            './icons/tailwindcss-icon.svg',   
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',  
+            './icons/github-icon.svg',  
+            './icons/git-icon.svg',  
+            './icons/gsap.png',  
+        ], 
+        link: 'https://newrobotron.netlify.app/', 
     },  
 ]
 
