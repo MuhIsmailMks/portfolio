@@ -624,12 +624,11 @@ const dataProjects = [
             './icons/tailwindcss-icon.svg',   
         ],
         toolsUses:[
-            './icons/figma-icon.svg',  
-            './icons/github-icon.svg',  
+            './icons/figma-icon.svg',   
             './icons/git-icon.svg',  
             './icons/gsap.png',  
         ], 
-        link: 'https://newrobotron.netlify.app/', 
+        link: 'https://newbobotron.netlify.app/', 
     },  
 ]
 
