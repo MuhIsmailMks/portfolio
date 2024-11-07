@@ -6,9 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 
-// data-aos="zoom-in"
-// data-aos-duration="700"
-// data-aos-delay="100"
+
 
 // screen width
 let screenWidth = window.innerWidth;
