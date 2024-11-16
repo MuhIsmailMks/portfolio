@@ -451,12 +451,11 @@ const dataProjects = [
             './images/project5-image5.webp', 
         ],
         techUses:[
-            './icons/react-icon.svg',
+            './icons/html-icon.svg',
+            './icons/css-icon.svg', 
             './icons/javascript-icon.svg', 
-            './icons/nodejs-icon.svg', 
         ],
-        toolsUses:[
-            './icons/figma-icon.svg',
+        toolsUses:[ 
             './icons/scrollReveal-icon.svg',
         ], 
         link:'https://muhismailmks.github.io/zeink-architect/', 
