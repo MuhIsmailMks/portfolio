@@ -344,7 +344,7 @@ const dataProjects = [
     {
         id:1,
         nameProject:'Sony web',
-        aboutProject:"I took inspiration from Sony's headphones, with a black and white theme this website looks modern plus the use of minimalist fonts and text makes this website elegant. I use bootstrap for layout and some styling, using a little JavaScript makes this website operate well.",
+        aboutProject:"I took inspiration from Sony's headphones,the website is also designed from figma and converted to html, with a black and white theme this website looks modern plus the use of minimalist fonts and text makes this website elegant. I use bootstrap for layout and some styling, using a little JavaScript makes this website operate well.",
         startProject: '16/May/2023',
         finishedProject: '16/June/2023',
         imageProject: './images/project1.png',
