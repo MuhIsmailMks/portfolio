@@ -81,8 +81,9 @@ const skillTechContainer = document.querySelector('.skill-container')
 
 function skilltech(techSkill) {
   return `
-  
-   <div class="skill-tech-category">
+   <div class="skill-tech-category" data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="100">
     <div class="tech-skill-title">
         <h5>${techSkill.title}</h5>
     </div>
