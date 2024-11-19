@@ -81,17 +81,17 @@ const skillTechContainer = document.querySelector('.skill-container')
 
 function skilltech(techSkill) {
   return `
-   <div class="skill-tech-category" data-aos="fade-up"
-            data-aos-duration="700"
-            data-aos-delay="100">
+   <div class="skill-tech-category">
     <div class="tech-skill-title">
         <h5>${techSkill.title}</h5>
     </div>
 
     <div class="skill-tech-container">
-      ${techSkill.skills.map((skill) => {
+      ${techSkill.skills.map((skill,i) => {
       return `
-        <div class="box-skill">
+        <div class="box-skill"  data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-delay="${i}00">
             <div class="skill" data-skillName="${skill.nameSkill}" style="--width-active:${skill.widthActive};--width-active-phone:${skill.widthActivePhone};--width-active-small-phone:${skill.widthActiveSmallPhone};--width-skillName:${skill.widthSkillName};--width-skillName-phone:${skill.widthSkillNamePhone} ">
             <div class="line"></div>
             <div class="icon">
