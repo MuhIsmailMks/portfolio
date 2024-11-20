@@ -89,7 +89,7 @@ function skilltech(techSkill) {
     <div class="skill-tech-container">
       ${techSkill.skills.map((skill,i) => {
       return `
-        <div class="box-skill"  data-aos="zoom-in"
+        <div class="box-skill" data-aos="zoom-in"
             data-aos-duration="700"
             data-aos-delay="${i}00">
             <div class="skill" data-skillName="${skill.nameSkill}" style="--width-active:${skill.widthActive};--width-active-phone:${skill.widthActivePhone};--width-active-small-phone:${skill.widthActiveSmallPhone};--width-skillName:${skill.widthSkillName};--width-skillName-phone:${skill.widthSkillNamePhone} ">
