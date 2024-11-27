@@ -1,3 +1,23 @@
+// navigation
+const menuBtn = document.querySelector('.menu-button');
+const nav = document.querySelector('nav');
+const links = document.querySelectorAll('nav li a');
+
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('active')
+  menuBtn.classList.toggle('active')
+});
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('active');
+    menuBtn.classList.remove('active');
+    setTimeout(() => { 
+    }, 500);
+  });
+}); 
+
+
 // aos animation
 window.addEventListener('DOMContentLoaded', () => {
   AOS.init({ 
@@ -19,24 +39,6 @@ window.addEventListener('resize', function () {
   screenWidth = window.innerWidth; 
 });
 
-// navigation
-const menuBtn = document.querySelector('.menu-button');
-const nav = document.querySelector('nav');
-const links = document.querySelectorAll('nav li a');
-
-menuBtn.addEventListener('click', () => {
-  nav.classList.toggle('active')
-  menuBtn.classList.toggle('active')
-});
-
-links.forEach(link => {
-  link.addEventListener('click', () => {
-    nav.classList.remove('active');
-    menuBtn.classList.remove('active');
-    setTimeout(() => { 
-    }, 500);
-  });
-}); 
 
 //  svg name animation
 window.addEventListener('DOMContentLoaded', () => {
