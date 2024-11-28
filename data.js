@@ -336,6 +336,10 @@ const projects = [
         id:12,
         image:'./images/project12.png',
     },
+    {
+        id:13,
+        image:'./images/project13.png',
+    },
 
 ];
 
@@ -628,6 +632,27 @@ const dataProjects = [
             './icons/gsap.png',  
         ], 
         link: 'https://newbobotron.netlify.app/', 
+    },  
+    {
+        id:13,
+        nameProject:'Real Estate NextJS',
+        aboutProject:`convert figma design to next JS, create website from NextJS and TailwindCSS, website is fully responsive and compatible with all browsers.`,  
+        startProject: '16/Sep/2024',
+        finishedProject: '28/Sep/2024',
+        imageProject: './images/project13.png',
+        imageSeledtedProject: [
+            './images/project13.png',   
+            './images/project13-1.png',   
+        ],
+        techUses:[ 
+            './icons/nextJS-icon.svg',  
+            './icons/tailwindcss-icon.svg',   
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',   
+            './icons/git-icon.svg',    
+        ], 
+        link: 'https://real-estate-next-js-tau.vercel.app/', 
     },  
 ]
 
