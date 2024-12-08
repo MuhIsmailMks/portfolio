@@ -636,7 +636,7 @@ const dataProjects = [
     {
         id:13,
         nameProject:'Real Estate NextJS',
-        aboutProject:`convert figma design to next JS, create website from NextJS and TailwindCSS, website is fully responsive and compatible with all browsers.`,  
+        aboutProject:`convert figma design to next JS, create website from NextJS and Tailwind CSS, website is fully responsive and compatible with all browsers.`,  
         startProject: '16/Sep/2024',
         finishedProject: '28/Sep/2024',
         imageProject: './images/project13.png',
