@@ -6,7 +6,7 @@ const personalInfo = [
     },
     {
         aboutInfo : 'Age',
-        info : '19 Years',
+        info : '20 Years',
     },
     {
         aboutInfo : 'Birth',
