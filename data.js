@@ -542,7 +542,7 @@ const dataProjects = [
     {
         id:9,
         nameProject:'Xenon AGI',
-        aboutProject:`a website with a crypto theme, this website is cloned and I made it according to the client's wishes, one of my freelance projects.`,  
+        aboutProject:`a website with a crypto theme, this landing page is cloned with html, tailwind css and javascript, I also made it according to the client's wishes.`,  
         startProject: '14/Apr/2024',
         finishedProject: '16/Apr/2024',
         imageProject: './images/project9.png',
