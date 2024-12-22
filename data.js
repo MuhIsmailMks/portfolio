@@ -443,7 +443,7 @@ const dataProjects = [
     {
         id:5,
         nameProject:'zeink architect',
-        aboutProject:"website with a building architecture theme, last year I was testing my skills as a front end web developer, using animations from the Scroll Reveal library to make this website look good with these animations, after 1 year of studying this front end, I don't want to be tied to it. tutorials on social media, and this is what I was capable of last year.",
+        aboutProject:"architectural building themed website, I use animation from Scroll Reveal library, this is one of the websites I made when I was learning front-end, this website is also responsive.",
         noteProject:`This website has undergone an update to be responsive on all devices, because at that time I was still not really proficient in doing CSS media queries.<b> Updated on 22-November-2023</b>`,
         startProject:"18/June/2022",
         finishedProject: '07/August/2022',
