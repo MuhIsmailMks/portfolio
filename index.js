@@ -18,14 +18,31 @@ links.forEach(link => {
 }); 
 
 
-// aos animation
+// animation
 window.addEventListener('DOMContentLoaded', () => {
   AOS.init({ 
     once: true
  });  
+
+    const svgName = anime.timeline({
+      autoplay: true,  
+    })
+
+    svgName.add({
+      targets: '.svg path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutSine',
+      duration: 1500,
+      delay: function (el, i) { return i * 220 },
+      complete: function () {
+        let path = document.querySelectorAll('.svg path');
+        path.forEach(pathSvg => {
+          pathSvg.classList.add('active');
+        })
+      }
+    }, '+=0');   
+
 })
-
-
 
 
 // screen width
@@ -39,27 +56,6 @@ window.addEventListener('resize', function () {
   screenWidth = window.innerWidth; 
 });
 
-
-//  svg name animation
-window.addEventListener('DOMContentLoaded', () => {
-  const svgName = anime.timeline({
-    autoplay: true,  
-  })
-  
-  svgName.add({
-    targets: '.svg path',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'easeInOutSine',
-    duration: 1500,
-    delay: function (el, i) { return i * 220 },
-    complete: function () {
-      let path = document.querySelectorAll('.svg path');
-      path.forEach(pathSvg => {
-        pathSvg.classList.add('active');
-      })
-    }
-  }, '+=0');   
-})
 
 // ABOUT ME SECTION
 // personal info
@@ -136,7 +132,7 @@ window.addEventListener("DOMContentLoaded",() => {
         }, 
         pagination: {
           el: '.swiper-pagination',
-          clickable: true, // Membuat pagination dapat diklik
+          clickable: true,  
         },
         loop:false,
       });  
