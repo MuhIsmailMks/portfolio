@@ -340,6 +340,10 @@ const projects = [
         id:13,
         image:'./images/project13.png',
     },
+    {
+        id:14,
+        image:'./images/project14.png',
+    },
 
 ];
 
@@ -653,6 +657,28 @@ const dataProjects = [
             './icons/git-icon.svg',    
         ], 
         link: 'https://real-estate-next-js-tau.vercel.app/', 
+    },  
+    {
+        id:14,
+        nameProject:'Grativy Crypto landing page reactJS',
+        aboutProject:`changing the figma design to reactjs, this landing page is responsive and compatible in browsers, this website also uses tailwind css and framer motion animation.`,  
+        startProject: '19/Des/2024',
+        finishedProject: '28/Des/2024',
+        imageProject: './images/project14.png',
+        imageSeledtedProject: [
+            './images/project14.png',   
+            './images/project14-1.png',   
+        ],
+        techUses:[ 
+            './icons/react-icon.svg',  
+            './icons/tailwindcss-icon.svg',   
+        ],
+        toolsUses:[
+            './icons/figma-icon.svg',   
+            './icons/framerMotion-icon.svg',   
+            './icons/git-icon.svg',    
+        ], 
+        link: 'https://grativy-crypto.vercel.app/', 
     },  
 ]
 
