@@ -661,7 +661,7 @@ const dataProjects = [
     {
         id:14,
         nameProject:'Grativy Crypto landing page reactJS',
-        aboutProject:`changing the figma design to reactjs, this landing page is responsive and compatible in browsers, this website also uses tailwind css and framer motion animation.`,  
+        aboutProject:`convert figma design to reactjs, this landing page is responsive and compatible in browsers, this website also uses tailwind css and framer motion animation.`,  
         startProject: '19/Des/2024',
         finishedProject: '28/Des/2024',
         imageProject: './images/project14.png',
